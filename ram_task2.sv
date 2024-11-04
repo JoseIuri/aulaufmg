@@ -23,9 +23,6 @@ module test;
     .data_read(data_read));
     
   initial begin
-    // Dump waves
-    $dumpfile("dump.vcd");
-    $dumpvars(1, test);
     
     clk_write = 0;
     clk_read = 0;
